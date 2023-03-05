@@ -7,7 +7,8 @@
     }
 
     section#login {
-        width: 90vw;
+        width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -19,6 +20,11 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+        padding-top: 15px;
+    }
+
+    section#login > div#formulario > p{
+        padding-bottom: 10px;
     }
 }
 
@@ -28,9 +34,18 @@
     body {
         background-image: linear-gradient(to top, rgba(0, 79, 164, 0.548), rgba(3, 119, 242, 0.548));
     }
-    
+
     section#login {
         width: 950px;
+        height: 280px;
+    }
+
+    section#login > div#formulario{
+        padding-top: 15px;
+    }
+
+    section#login > div#formulario > p{
+        padding-bottom: 10px;
     }
 
     section#login > div#imagem {
